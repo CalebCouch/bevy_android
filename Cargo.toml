@@ -15,7 +15,10 @@ bevy = { version = "0.15.0", default-features = false, features = [
 ]}
 bevy_egui = "0.31.1"
 egui = "0.29.1"
-
+bevy_state = "0.15.0"
+bevy_svg = "0.14.0"
+bevy_ui = "0.15.0"
+rand = "0.8.5"
 log = "0.4.22"
 
 [lib]
@@ -38,3 +41,4 @@ target_sdk_version = 33
 # Enable a large amount of optimization in the dev profile for dependencies.
 #[profile.dev.package."*"]
 #opt-level = 3
+
